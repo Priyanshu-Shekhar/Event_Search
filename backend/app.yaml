@@ -1,0 +1,15 @@
+runtime: nodejs20
+env: standard
+instance_class: F1
+
+automatic_scaling:
+  min_instances: 0
+  max_instances: 1
+
+env_variables:
+  TICKETMASTER_API_KEY: "EBCx2cIuOzyKWgX9IYUMTWGtRTGRZBiN"
+  SPOTIFY_CLIENT_ID: "939fd11becaa4ba18a41500f039b8985"
+  SPOTIFY_CLIENT_SECRET: "3ef4a77b28c441baa17e35f31d5317eb"
+  MONGODB_URI: "mongodb+srv://101priyanshushekhar_db_user:jg6mML8LWHXJZJtC@cluster0.eqkzyyc.mongodb.net/?appName=Cluster0"
+  DB_NAME: "eventSearch"
+  COLLECTION_NAME: "favorites"
