@@ -14,4 +14,6 @@ Event Finder is a modern Android application that enables users to search for ne
 - APIs: Ticketmaster API, Spotify API, Google Maps / Geocoding API, IPInfo API
 - Architecture & Concepts: Android Lifecycle, Asynchronous HTTP Requests, REST APIs
 
-##🎥 Video Demo 
+## 🎥Video Demo 
+https://github.com/user-attachments/assets/0fb67eb3-89da-4a6f-a0ee-a90429ebb25a
+
