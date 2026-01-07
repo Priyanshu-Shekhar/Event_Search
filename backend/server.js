@@ -10,10 +10,10 @@ const PORT = process.env.PORT || 8080;
 
 // ==================== CONFIGURATION ====================
 // Add your API keys here or in .env file
-const TICKETMASTER_API_KEY = process.env.TICKETMASTER_API_KEY || 'EBCx2cIuOzyKWgX9IYUMTWGtRTGRZBiN';
-const SPOTIFY_CLIENT_ID = process.env.SPOTIFY_CLIENT_ID || '939fd11becaa4ba18a41500f039b8985';
-const SPOTIFY_CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET || '3ef4a77b28c441baa17e35f31d5317eb';
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://101priyanshushekhar_db_user:jg6mML8LWHXJZJtC@cluster0.eqkzyyc.mongodb.net/?appName=Cluster0';
+const TICKETMASTER_API_KEY = process.env.TICKETMASTER_API_KEY || 'TICKETMASTER_API_KEY';
+const SPOTIFY_CLIENT_ID = process.env.SPOTIFY_CLIENT_ID || 'SPOTIFY_CLIENT_ID';
+const SPOTIFY_CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET || 'SPOTIFY_CLIENT_SECRET';
+const MONGODB_URI = process.env.MONGODB_URI || 'MONGODB_URI';
 const DB_NAME = process.env.DB_NAME || 'eventSearch';
 const COLLECTION_NAME = process.env.COLLECTION_NAME || 'favorites';
 
@@ -242,4 +242,5 @@ app.get('*', (req, res) => {
 // ==================== START SERVER ====================
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
+
 });
