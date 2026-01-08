@@ -1,4 +1,4 @@
-# 🎥Video Demo 
+# 🎥Event Finder Demo 
 https://github.com/user-attachments/assets/0fb67eb3-89da-4a6f-a0ee-a90429ebb25a
 
 # 📱Event Finder – Android Application
